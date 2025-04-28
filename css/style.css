@@ -1,0 +1,59 @@
+/* Seletor por elemento */
+body {
+    background-color: rgb(146, 183, 183);
+    color:rgb(39, 51, 51);
+    font-family: 'trebuchet', sans-serif;
+  }
+  
+  /* Seletor por ID */
+  #titulo-principal {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+    background-color:rgb(146, 183, 183); ;
+    color: #0d0d0e;
+  }
+  
+  /* Seletor por classe */
+  .foto-perfil {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #003366;
+  }
+  
+  /* Seletor por atributo */
+  a[href^="mailto:"] {
+    font-style: italic;
+    color: #0055aa
+  }
+  
+  /* Pseudo-classe */
+  a:hover {
+    color: #ffffff;
+    text-decoration: overline;
+  }
+  
+  /* Decorações de texto */
+  h1 {
+    color:rgb(39, 51, 51);;
+    background-color:rgb(86, 149, 149);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  figcaption {
+    font-style: oblique;
+    font-weight: bold;
+    text-align:left;
+    margin-top: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgb(86, 149, 149);
+    color: rgb(39, 51, 51);;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
